@@ -3,7 +3,7 @@ import argparse
 
 def main():
         parser = argparse.ArgumentParser(description="Validates if some integers form a triangle")
-        parser.add_argument('integers', metavar='N', type=int, nargs='+',
+        parser.add_argument('integers', metavar='Integers', type=int, nargs=3,
                             help='integers to form a triangle')
         arguments = parser.parse_args()
         #  if x <= 0 || y <= 0 || z <=0 error out and say why
